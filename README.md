@@ -148,4 +148,4 @@ MIT
 
 ---
 
-Built for Indonesian language learners, by [Your Name]. If this helps you, consider giving it a ⭐
+Built for Indonesian language learners, by Rayhan Rizqi. If this helps you, consider giving it a ⭐
