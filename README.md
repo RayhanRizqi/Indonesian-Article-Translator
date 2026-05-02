@@ -83,15 +83,6 @@ The extension uses a layered translation strategy to balance accuracy and perfor
 └─────────────────────────────────────────────────────┘
 ```
 
-### Why a hybrid approach?
-
-Free single-word translation APIs make context-blind mistakes:
-- `di` → "13" (instead of "at/in")
-- `pembunuhan` → "latest" (instead of "murder")
-- `Prabowo` → "sister" (instead of leaving the name alone)
-
-The local dictionary fixes the most common offenders instantly without an API call. Proper noun detection prevents names from being mangled. The API handles the long tail of less common vocabulary.
-
 ## 📁 Project Structure
 
 ```
